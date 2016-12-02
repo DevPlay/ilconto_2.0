@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prueba.principales.ilconto.opiniones"
+    android:background="@drawable/pizarra">
+
+    <!-- Por ahora esta es usada como pagina principal-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        app:srcCompat="?android:attr/colorBackground"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/kan"
+        android:id="@+id/imageView3"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="250sp" />
+
+    <ImageView
+        android:layout_width="50sp"
+        app:srcCompat="@drawable/user"
+        android:id="@+id/imageView"
+        android:layout_height="50sp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Estas en..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <ImageButton
+        android:layout_height="80sp"
+        app:srcCompat="@drawable/tiza_campana96"
+        android:id="@+id/imageButton2"
+        android:layout_width="80sp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="55dp" />
+
+    <ImageButton
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        app:srcCompat="@drawable/tiza_cuenta1_96"
+        android:id="@+id/imageButton3"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        android:layout_marginTop="121dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        app:srcCompat="@drawable/tiza_carta1_96"
+        android:id="@+id/imageButton4"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toEndOf="@+id/imageView" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e0e0e0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ac2e59</color>
+    <color name="Barra_estado">#d1c4e9</color>
+    <color name="statusBarColor">#d1c4e9</color>
+</resources>
